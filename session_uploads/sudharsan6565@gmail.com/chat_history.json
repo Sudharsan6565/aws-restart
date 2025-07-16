@@ -1,0 +1,10 @@
+[
+  {
+    "sender": "user",
+    "message": "hello"
+  },
+  {
+    "sender": "bot",
+    "message": "Hello! How can I assist you today?"
+  }
+]

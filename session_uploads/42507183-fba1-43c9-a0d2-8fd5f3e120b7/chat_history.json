@@ -1,0 +1,24 @@
+[
+  {
+    "sender": "user",
+    "message": "hello"
+  },
+  {
+    "sender": "bot",
+    "message": {
+      "query": "hello",
+      "result": "Hello! How can I assist you today?"
+    }
+  },
+  {
+    "sender": "user",
+    "message": "hello"
+  },
+  {
+    "sender": "bot",
+    "message": {
+      "query": "hello",
+      "result": "Hello! How can I assist you today?"
+    }
+  }
+]

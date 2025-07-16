@@ -1,0 +1,50 @@
+[
+  {
+    "sender": "user",
+    "message": "[Uploaded file: folder.txt]"
+  },
+  {
+    "sender": "bot",
+    "message": "Thanks! I've processed your file. Ask me anything."
+  },
+  {
+    "sender": "user",
+    "message": "hello"
+  },
+  {
+    "sender": "bot",
+    "message": "Hello! How can I assist you today?"
+  },
+  {
+    "sender": "user",
+    "message": "[Uploaded file: folder.txt]"
+  },
+  {
+    "sender": "bot",
+    "message": "Thanks! I've processed your file. Ask me anything."
+  },
+  {
+    "sender": "user",
+    "message": "what in the file"
+  },
+  {
+    "sender": "bot",
+    "message": "I'm sorry, but there is no information provided in the file."
+  },
+  {
+    "sender": "user",
+    "message": "[Uploaded file: AWS+CCP+Training+Notes+DCT.pdf]"
+  },
+  {
+    "sender": "bot",
+    "message": "Thanks! I've processed your file. Ask me anything."
+  },
+  {
+    "sender": "user",
+    "message": "whats in that file"
+  },
+  {
+    "sender": "bot",
+    "message": "I'm sorry, but I can't provide the information you're looking for."
+  }
+]
