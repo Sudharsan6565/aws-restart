@@ -1,6 +1,0 @@
-flask
-flask-cors
-langchain
-chromadb
-openai
-unstructured
