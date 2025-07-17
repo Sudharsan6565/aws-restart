@@ -21,6 +21,7 @@ from langchain_core.runnables import RunnableConfig
 # Load .env variables
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
+print("[DEBUG] OPENAI Key (masked):", os.getenv("OPENAI_API_KEY")[:10], "...")
 
 # Init Flask app
 app = Flask(__name__)

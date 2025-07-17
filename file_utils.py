@@ -64,6 +64,7 @@ def extract_text_from_image(path):
     try:
         image = Image.open(path).convert("RGB")
         text = pytesseract.image_to_string(image)
+        print(f"[🧠 OCR TEXT] Extracted from {path}:\n{text}")
         return [Document(page_content=text.strip(), metadata={"source": path})] if text.strip() else []
     except Exception as e:
         print(f"[❌] Failed to parse image {path}: {e}")
@@ -71,6 +72,7 @@ def extract_text_from_image(path):
 
 def parse_file(file_path):
     ext = os.path.splitext(file_path)[-1].lower()
+
     if ext == ".pdf":
         return extract_text_from_pdf(file_path)
     elif ext == ".docx":
@@ -89,4 +91,5 @@ def parse_file(file_path):
             return []
     elif ext in [".png", ".jpg", ".jpeg", ".webp"]:
         return extract_text_from_image(file_path)
+
     return []
